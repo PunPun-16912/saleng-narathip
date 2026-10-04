@@ -1,0 +1,32 @@
+export const mockJobs = [
+  {
+    id: 1,
+    scrapType: 'กระป๋องอลูมิเนียม',
+    estimatedPrice: 210,
+    distanceKm: 1.8,
+    address: '123/4 ถนนสุขสวัสดิ์ ตำบลบางเขน จังหวัดนนทบุรี',
+    hiddenAddress: 'ข้อมูลอยู่ระหว่างการยืนยันตัวตน',
+    status: 'open',
+    priceRange: '200-260 บาท',
+  },
+  {
+    id: 2,
+    scrapType: 'กระดาษลัง',
+    estimatedPrice: 180,
+    distanceKm: 3.9,
+    address: '88/7 ถนนกิ่งแก้ว ตำบลศรีนครินทร์ จังหวัดนนทบุรี',
+    hiddenAddress: 'ข้อมูลอยู่ระหว่างการยืนยันตัวตน',
+    status: 'open',
+    priceRange: '160-210 บาท',
+  },
+  {
+    id: 3,
+    scrapType: 'พลาสติก PET',
+    estimatedPrice: 95,
+    distanceKm: 7.2,
+    address: '55/9 ซอยรังสิต 25 ตำบลคลองหนึ่ง จังหวัดปทุมธานี',
+    hiddenAddress: 'ข้อมูลอยู่ระหว่างการยืนยันตัวตน',
+    status: 'open',
+    priceRange: '80-120 บาท',
+  },
+];
